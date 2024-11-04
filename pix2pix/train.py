@@ -11,6 +11,7 @@ from tqdm import tqdm
 from torchvision.utils import save_image
 #first change
 #second change
+#Creating a new branch is quick.
 
 def train_fn(disc, gen, loader, opt_disc, opt_gen, l1, bce, g_scaler, d_scaler):
     loop = tqdm(loader, leave=True)
